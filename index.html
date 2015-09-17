@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title> RoShamBo Fighter</title>
+	<link rel="stylesheet" href="css/style.css">
+	 <meta charset="UTF-8"> 
+</head>
+
+
+<body>
+	<div class="topBar">
+		<h1> FIGHT! </h1>
+		<p class="score"> Current Score <p>
+	</div>
+	<div class="container">
+		<div class="playerBox">
+			<img class = "playerImage" id="playerFightingPose" src="images/player.jpg">
+			<form id="playerButton">
+				<input type="submit" id="rock" value="Rock">
+				<input type="submit" id="paper" value="Paper">
+				<input type="submit" id="scissors" value="Scissors">
+			</form>
+		</div>
+
+		<div class="opponentBox">
+			<img class = "opponentImage" id="oppFightingPose" src="images/player.jpg">
+			<p class="opponentStatus">Waiting for attack</p> 
+		</div>
+	</div>
+
+	<script src="scripts/scripts.js"></script>
+
+</body>
+</html>
